@@ -9,11 +9,11 @@
   <description>Togglz client for connecting a spring application to IS24 Switchman.</description>
   <url>https://github.com/czterocyty/switchman-togglz-client</url>
 
-  <parent>
-    <groupId>org.sonatype.oss</groupId>
-    <artifactId>oss-parent</artifactId>
-    <version>7</version>
-  </parent>
+  <!--<parent>-->
+    <!--<groupId>org.sonatype.oss</groupId>-->
+    <!--<artifactId>oss-parent</artifactId>-->
+    <!--<version>7</version>-->
+  <!--</parent>-->
 
   <organization>
     <name>Immobilienscout24 GmbH</name>
@@ -83,7 +83,7 @@
         <artifactId>maven-release-plugin</artifactId>
         <version>2.5</version>
         <configuration>
-          <arguments></arguments>
+          <arguments />
         </configuration>
       </plugin>
       <plugin>
