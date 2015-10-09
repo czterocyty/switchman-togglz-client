@@ -4,7 +4,7 @@
   <groupId>de.is24.common</groupId>
   <artifactId>switchman-togglz-client</artifactId>
   <packaging>jar</packaging>
-  <version>1.2-SNAPSHOT</version>
+  <version>1.1.czterocyty.1-SNAPSHOT</version>
   <name>switchman-togglz-client</name>
   <description>Togglz client for connecting a spring application to IS24 Switchman.</description>
   <url>https://github.com/ImmobilienScout24/switchman-togglz-client</url>
@@ -42,9 +42,9 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:https://github.com/ImmobilienScout24/switchman-togglz-client.git</connection>
-    <url>scm:git:https://github.com/ImmobilienScout24/switchman-togglz-client.git</url>
-    <developerConnection>scm:git:https://github.com/ImmobilienScout24/switchman-togglz-client.git</developerConnection>
+    <connection>scm:git:https://github.com/czterocyty/switchman-togglz-client.git</connection>
+    <url>scm:git:https://github.com/czterocyty/switchman-togglz-client.git</url>
+    <developerConnection>scm:git:https://github.com/czterocyty/switchman-togglz-client.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
@@ -57,14 +57,14 @@
 
   <distributionManagement>
     <snapshotRepository>
-      <id>sonatype-nexus-snapshots</id>
-      <name>Sonatype Nexus Snapshots</name>
-      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+      <id>snapshots</id>
+      <name>Snapshots</name>
+      <url>http://devnex.rz.is24.loc/content/repositories/snapshots/</url>
     </snapshotRepository>
     <repository>
-      <id>sonatype-nexus-staging</id>
-      <name>Nexus Release Repository</name>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <id>releases</id>
+      <name>Releases</name>
+      <url>http://devnex.rz.is24.loc/content/repositories/releases/</url>
     </repository>
   </distributionManagement>
 
